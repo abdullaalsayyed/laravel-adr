@@ -1,5 +1,6 @@
 <?php
 
 return [
-    App\Providers\AppServiceProvider::class,
+    \App\ADR\Providers\ADRProvider::class,
+    Spatie\Permission\PermissionServiceProvider::class,
 ];
